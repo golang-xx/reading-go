@@ -338,7 +338,7 @@ b.ReportAllocs()
 
 原理：
 
-每秒钟100次的数据状态采样，根据经验值，默认100Hz比较合理，一般不能大于500Hz。技能产生足够有效的数据，也不至于让系统产生卡顿。
+每秒钟100次的数据状态采样，根据经验值，默认100Hz比较合理，一般不能大于500Hz。既能产生足够有效的数据，也不至于让系统产生卡顿。
 
 相关的定义在[StartCPUProfile()](https://golang.org/src/runtime/pprof/pprof.go#L740)
 
@@ -1434,5 +1434,4 @@ BenchmarkHandleFunc-8     1307          217           -83.40%
 - [how to test](https://github.com/xpzouying/learning_golang/tree/master/how_to_test)
 - [golang/pprof](https://golang.org/pkg/runtime/pprof/)
 - [golang/profiling-go-programs](https://blog.golang.org/profiling-go-programs)
-- [Google 推出 C++ Go Java Scala的基准性能测试](https://www.cnbeta.com/articles/soft
-  /145252.htm)
+- [Google 推出 C++ Go Java Scala的基准性能测试](https://www.cnbeta.com/articles/soft/145252.htm)
